@@ -1,0 +1,150 @@
+.dashboard {
+  background-color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-left: 27px;
+}
+.searchbar {
+  margin: 10px;
+  height: 30px;
+  margin-left: 27px;
+}
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: blue;
+  height: 186px;
+}
+.createbtn {
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -55px;
+  width: 96%;
+  margin-left: 33px;
+}
+.navitem {
+  background-color: white;
+  height: 132px;
+  width: 320px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  position: relative;
+}
+.maindiv {
+  position: relative;
+}
+.content {
+  padding: 40px 40px 0px 40px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 37px;
+}
+.projetable {
+  width: 100%;
+  height: 360px;
+}
+
+table,
+td {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+thead {
+  height: 55px;
+}
+.progress {
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  overflow: hidden;
+  display: inline-block;
+}
+.bar {
+  height: 10px;
+  background-color: #1a73e8;
+}
+.barlast {
+  height: 10px;
+  background-color: green;
+}
+.precent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100%;
+}
+.subimg {
+  position: absolute;
+  right: 15px;
+  top: 19px;
+  padding: 10px;
+  background-color: #bbbbe5;
+  border-radius: 5px;
+}
+.icons {
+  height: 20px;
+  width: 27px;
+  margin: 2px 0px 0px 0px;
+  display: grid;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.imggroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  margin-left: -21px;
+}
+
+.more {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: #7a5cff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -21px;
+}
+.newadd {
+  text-align: left;
+  padding-left: 21px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
